@@ -1,0 +1,24 @@
+{
+    "aug_data_root": "data/imax/augmented",
+"org_data_root": "data/imax/original",
+    "loss": "lovasz",
+    "batch_size": 64,
+    "n_epochs": 100,
+    "model": "unetpp",
+    "output_path": "results",
+    "train_files": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+    ],
+    "val_files": [
+        "8"
+    ],
+    "channels": [
+        16, 32, 64, 128, 256
+    ]
+}

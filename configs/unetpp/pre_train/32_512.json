@@ -1,0 +1,25 @@
+{
+    "aug_data_root": "data/imax/augmented",
+"org_data_root": "data/imax/original",
+    "loss": "mIoU",
+    "batch_size": 64,
+    "n_epochs": 50,
+    "model": "unetpp",
+    
+    "train_files": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+    ],
+    "val_files": [
+        "8"
+    ],
+    "output_path": "results/pre_train/unet",
+    "channels": [
+        32, 64, 128, 256, 512
+    ]
+}
