@@ -19,6 +19,7 @@ We trained on annotated IMaX/SUNRISE images and applied the best models to high-
 
 ## Directory Structure
 
+```
 ├── configs/                 # Model configuration files (U-Net, U-Net++, BT-UNet)
 ├── data/                   # IMaX dataset (original + augmented)
 ├── models/                 # U-Net and U-Net++ implementations
@@ -31,21 +32,22 @@ We trained on annotated IMaX/SUNRISE images and applied the best models to high-
 ├── imax_pred.py            # IMaX inference script
 ├── losses.py, metrics.py   # Custom loss functions and metrics
 └── utils.py                # Helper functions
-
+```
 ## Getting Started
 
 1. Clone the repo:
+```
    git clone https://github.com/yourusername/imax-to-dkist.git
    cd imax-to-dkist
+```
+3. Install requirements:
+   `pip install -r requirements.txt`
 
-2. Install requirements:
-   pip install -r requirements.txt
+4. Train a model:
+   `python train.py --config configs/unet/miou/64_512_miou.json`
 
-3. Train a model:
-   python train.py --config configs/unet/miou/64_512_miou.json
-
-4. Predict on DKIST frames:
-   python dkist_pred.py --model-path results/unet_64_512_miou/.../best.pth
+5. Predict on DKIST frames:
+   `python dkist_pred.py --model-path results/unet_64_512_miou/.../best.pth`
 
 ## Citation
 
