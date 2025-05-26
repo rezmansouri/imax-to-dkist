@@ -41,18 +41,25 @@ We trained on annotated IMaX/SUNRISE images and applied the best models to high-
    cd imax-to-dkist
 ```
 3. Install requirements:
-   `pip install -r requirements.txt`
+```
+   pip install -r requirements.txt
+```
 
-4. Train a model:
-   `python train.py --config configs/unet/miou/64_512_miou.json`
+5. Train a model:
+```
+   python train.py --config configs/unet/miou/64_512_miou.json
+```
 
-5. Predict on DKIST frames:
-   `python dkist_pred.py --model-path results/unet_64_512_miou/.../best.pth`
+6. Predict on DKIST frames:
+```
+   python dkist_pred.py --model-path results/unet_64_512_miou/.../best.pth
+```
 
 ## Citation
 
 If you use this code or dataset, please cite our work:
 
+```
 @article{Mansouri_Angryk_Reardon_2025,
   title     = {Exploring Solar Granulation: from IMaX/SUNRISE to DKIST},
   author    = {Mansouri, Reza and Angryk, Rafal and Reardon, Kevin},
@@ -64,7 +71,7 @@ If you use this code or dataset, please cite our work:
   url       = {https://journals.flvc.org/FLAIRS/article/view/138987},
   DOI       = {10.32473/flairs.38.1.138987}
 }
-
+```
 
 ## License
 
