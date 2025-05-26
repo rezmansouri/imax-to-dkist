@@ -1,11 +1,10 @@
 # Semantic Segmentation of Solar Granulation from IMaX to DKIST
 
-[Paper](https://journals.flvc.org/FLAIRS/article/view/138987)
 
 <img width="1323" alt="Screenshot 2025-05-26 at 12 11 09 AM" src="https://github.com/user-attachments/assets/95b06669-a451-4de9-924b-e5c4e6016427" />
 
 
-This repository contains the codebase and results for our paper presented at the 38th Florida Artificial Intelligence Research Society (FLAIRS) Conference. We explored semantic segmentation of solar granulation—small convection-driven patterns on the Sun’s surface—using U-Net, U-Net++, and BT-UNet architectures.
+This repository contains the codebase and results for our paper entitled <a href="https://journals.flvc.org/FLAIRS/article/view/138987" target="_blank">Exploring Solar Granulation: from IMaX/SUNRISE to DKIST</a> presented at the 38th Florida Artificial Intelligence Research Society (FLAIRS) Conference. We explored semantic segmentation of solar granulation—small convection-driven patterns on the Sun’s surface—using U-Net, U-Net++, and BT-UNet architectures.
 
 We trained on annotated IMaX/SUNRISE images and applied the best models to high-resolution DKIST imagery, producing the first set of pre-annotations for this dataset.
 
