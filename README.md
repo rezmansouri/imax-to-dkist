@@ -2,7 +2,8 @@
 
 [Paper](https://journals.flvc.org/FLAIRS/article/view/138987)
 
-<img width="1401" alt="Screenshot 2025-05-25 at 11 51 43 PM" src="https://github.com/user-attachments/assets/fc1d4024-6665-44de-8610-223d29dc42fc" />
+<img width="1323" alt="Screenshot 2025-05-26 at 12 11 09 AM" src="https://github.com/user-attachments/assets/95b06669-a451-4de9-924b-e5c4e6016427" />
+
 
 This repository contains the codebase and results for our paper presented at the 38th Florida Artificial Intelligence Research Society (FLAIRS) Conference. We explored semantic segmentation of solar granulation—small convection-driven patterns on the Sun’s surface—using U-Net, U-Net++, and BT-UNet architectures.
 
